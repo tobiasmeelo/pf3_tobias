@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPA</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> PF3 </div>
+
+        <div class="input">
+             <input placeholder="Digite o seu nome" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+             <input placeholder="Digite o valor a ser aplicado mensalmente" type="number" id='valorMensal' required="required">
+        </div>
+
+        <div class="input">
+             <input placeholder="Digite a taxa de jurus ao mes da aplicação" type="taxaJurus" id='taxaJurus' required="required">
+        </div>
+
+        <div class="input">
+             <input placeholder="Digite a duracao da aplicação em meses" type="number" id='tempo' required="required">
+        </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer></footer>  
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
